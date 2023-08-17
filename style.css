@@ -21,8 +21,8 @@ body{
     height: 100%;
     background-image: linear-gradient(rgb(124, 124, 124), darkgray);
     margin: 10px auto;
-    border-radius: 23px;
-    /* box-shadow: 1px 1px rgba(100, 100, 100, 0.2); */
+    border-radius: 22px;
+    
 
 }
 
