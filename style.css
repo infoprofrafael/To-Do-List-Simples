@@ -142,15 +142,34 @@ input{
     
 .container-item #item{
     padding: 5px 8px;
-    width: 70%;
+    width: 73%;
     font-size: normal;
 }
 
 
 .botao{
     padding: 4px;
-    font-size: smaller;
+    font-size: medium;
 }
 
 
 }
+
+
+
+@media(max-width:380px){
+      
+.container-item #item{
+    width: 70%;
+}
+
+}
+
+
+@media(max-width:348px){
+      
+    .container-item #item{
+        width: 65%;
+    }
+    
+    }
