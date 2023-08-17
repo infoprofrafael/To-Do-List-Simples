@@ -9,21 +9,23 @@
 
 function adicionar() {
    let item = document.getElementById("item").value;
-   
-   if (item !="") {
+
+   if (item != "") {
       let list = document.getElementById("lista").innerHTML;
       list += "<li>" + item + "</li>";
       document.getElementById("lista").innerHTML = list;
       document.getElementById("item").value = null;
+      ligarDesligarMensagem();
+
    } else {
       alert("Digite uma tarefa!");
    }
+
+
 }
 
-
-
-
-
-
-
-
+function ligarDesligarMensagem() {
+   let mensagem = document.querySelector(".menslembrete");
+   mensagem.style.display = "block";
+   
+}

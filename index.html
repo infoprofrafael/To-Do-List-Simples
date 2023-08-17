@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600;1,700&display=swap"
+        rel="stylesheet">
+       
     <link rel="stylesheet" href="./style.css">
     <title>Lista de Tarefas | Na prática</title>
 </head>
@@ -16,38 +18,45 @@
 
     </header>
     <main>
-        
-        
-        
+
         <div class="container-box">
-            <div class="container-title"><h1>LISTA DE TAREFAS</h1></div>
-
-            <div class="container-item">
-                <input id="item" placeholder="Digite uma Tarefa!" type="text" name="text" >
-            </input>
-            
-
-            <button onclick="adicionar()" id="cadastre" class="botao" >
-                Cadastrar!  
-            </button>    
+            <div class="container-title">
+                <h1>LISTA DE TAREFAS</h1>
             </div>
 
+            <div class="container-item">
+                <input id="item" placeholder="Digite uma Tarefa!" type="text" name="text">
+                </input>
+
+
+                <button onclick="adicionar()" id="cadastre" class="botao">
+                    Cadastrar!
+                </button>
+            </div>
+            <div class="listbuy">
+                <ol id="lista">
+
+
+                </ol>
+
+            </div>
+
+            <div class="menslembrete">
+                <p> *Lembrar sempre de conferir as tarefas!</p>
+            </div>
+            <style>
+                .menslembrete{
+                    margin-top: 30px;
+                    display:none;
+                    margin-left: 10px;
+                }
+            </style>
         
-        <div class="listbuy">
-            <ol id="lista">
-                
-                
-            </ol>
-            <p id="lembrete">*Lembrar sempre de conferir as tarefas!</p>
-        </div>
-    
-
-
-
     </main>
     <footer>
 
     </footer>
+    
     <script src="./script.js"></script>
 </body>
 
