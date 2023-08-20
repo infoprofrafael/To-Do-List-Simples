@@ -8,7 +8,12 @@
 }
 
 body{
-    background: darkgray;
+    background: url("https://w.forfun.com/fetch/e4/e48c3497956c1d445fe0f62e67f9cb7e.jpeg") ;
+    /* background: url("https://img.freepik.com/fotos-premium/ilustracao-de-fogo-de-leao_826849-188.jpg?w=2000"); */
+    background-position: top -330px center;
+    background-color: rgb(39, 38, 38);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -19,7 +24,7 @@ body{
     width: 100%;
     min-height: 200px;
     height: 100%;
-    background-image: linear-gradient(rgb(124, 124, 124), darkgray);
+    background-image: linear-gradient(rgb(124, 124, 124), rgb(22, 22, 22), black);
     margin: 10px auto;
     border-radius: 22px;
     
@@ -58,7 +63,6 @@ input{
 .botao{
     border-radius: 14px;
     cursor:pointer;
-    
     padding: 5px;
     font-size: large;
     float: right;
@@ -79,9 +83,13 @@ input{
     margin:10px 16px;
     padding-left: 10px;
     font-weight: 600;
-    font-size: larger;
     color: white;
     text-shadow: 2px 1px 2px rgba(30, 30, 30, 0.9);
+}
+
+.listbuy li{
+    font-size: 15px;
+    
 }
 
 .menslembrete p{
@@ -91,10 +99,48 @@ input{
 }
 
 
+@media(max-width:1200px){
 
+    body{
+        background-position: top 19% center;
+
+    }
+}
+
+
+@media(max-width:1100px){
+
+    body{
+        background-position: top 20% center;
+
+    }
+}
+
+
+@media(max-width:1000px){
+
+    body{
+        background-position: top 16% center;
+
+    }
+}
+
+
+@media(max-width:730px){
+
+    body{
+        background-position: top 12% center;
+
+    }
+}
 
 
 @media(max-width:630px){
+
+    body{
+        background-position: top 8% center;
+
+    }
     
 .container-box{
     padding: 10px 5px;
@@ -111,35 +157,38 @@ input{
 @media(max-width:600px){
     
 .container-title{
-    font-size: large;
+    font-size: 18px;
     margin-bottom: 10px;
    
 
 }
 
-
-
 .container-item #item{
    
-    width: 76%;
- 
+    width: 75%;
 
 }
-
-
 
 .botao{
     padding: 4px;
-    
+    font-size: 17px;    
 }
 
 }
 
+@media(max-width:550px){
+    body{
+        background-position: top 5% center;
 
+    }
+}
 
 @media(max-width:486px){
-    
-    
+    body{
+        background-position: top -1% center;
+
+    }
+
 .container-item #item{
     padding: 5px 8px;
     width: 73%;
@@ -149,15 +198,49 @@ input{
 
 .botao{
     padding: 4px;
-    font-size: medium;
+    font-size: 16px;
 }
 
 
 }
 
 
+@media(max-width:441px){
+    body{
+        background-position: top -3% center;
+
+    }
+}
+
+.container-title{
+    font-size:medium;
+}
+
+input #item{
+    
+}
+
+.botao{
+    font-size: 14px;
+}
+
+.listbuy li{
+    font-size: 12px;
+    
+}
+
+@media(max-width:400px){
+    body{
+        background-position: top -6% center;
+
+    }
+}
 
 @media(max-width:380px){
+    body{
+        background-position: top -9% center;
+
+    }
       
 .container-item #item{
     width: 70%;
